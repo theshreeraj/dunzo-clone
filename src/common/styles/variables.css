@@ -1,0 +1,12 @@
+:root {
+  --white: #fff;
+  --header-text: #0f1938;
+  --button-green: #00d290;
+  --white-transparent: #ffffff3d;
+  --green: #00b37a;
+  --light-green: #f7fdfa;
+  --text-light: #171e30;
+  --text-gray: #6f7588;
+  --card-shadow: rgb(0 0 0 / 6%) 0px 4px 7px;
+  --header-shadow: rgb(0 0 0 / 8%) 0px 2px 12px;
+}
