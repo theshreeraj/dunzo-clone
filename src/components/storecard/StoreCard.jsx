@@ -1,21 +1,21 @@
 import React from "react";
 import "./StoreCard.css";
 
-const StoreCard = () => {
+const StoreCard = ({img,name,dist,area}) => {
   return (
     <>
       <div className="grocery-card">
         <div className="g-card-first">
           <img
             className="g-card-img"
-            src="https://shorturl.at/zdieZ"
+            src={img}
             alt="gimg"
           />
         </div>
         <div className="g-card-content">
-          <h3>Food Junction</h3>
-          <p>Deccan GymKhana</p>
-          <p>3.4 KM</p>
+          <h3>{name}</h3>
+          <p>{area}</p>
+          <p>{dist}</p>
         </div>
       </div>
     </>
