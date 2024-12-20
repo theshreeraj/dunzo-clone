@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer flex absolute-center">
-      Made with 🔥 by Developer's Dev | Newton School
+      Made with 🔥 by Decoders Club - theshreeraj
     </div>
   );
 };
